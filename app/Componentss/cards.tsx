@@ -120,10 +120,10 @@ function Topcard() {
         viewport={{ once: false, amount: 0.2 }}
         variants={textVariants}
       >
-        <motion.h1 className="md:text-4xl text-[#3C1874]  text-2xl md:font-bold">
+        <motion.h1 className="md:text-4xl font-baskervville text-[#3C1874]  text-2xl md:font-bold">
           Services We Provide
         </motion.h1>
-        <motion.p className="md:px-10 py-5">
+        <motion.p className="md:px-10 font-mingzat py-5">
           Refsoft Solution provides software solutions and websites which are
           scalable, reliable, fast and secure. Our UI designs are latest and
           outstanding. Our developed websites and web-based softwares are
@@ -147,10 +147,12 @@ function Topcard() {
                 <div className="flex justify-center items-center mb-4">
                   {service.icon} {/* Render the icon */}
                 </div>
-                <h1 className="mb-2 mt-2 text-lg font-bold text-center">
+                <h1 className="mb-2 font-baskervville mt-2 text-2xl font-bold text-center">
                   {service.title}
                 </h1>
-                <p className="mb-4 mt-8 text-center">{service.description}</p>
+                <p className="mb-4 mt-8 font-mingzat text-center">
+                  {service.description}
+                </p>
               </div>
               <button className="rounded-full text-white bg-[#3C1874] px-5 py-3 self-center">
                 {service.buttonText}

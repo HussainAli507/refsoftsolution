@@ -64,7 +64,7 @@ export function CarouselSpacing() {
   };
 
   return (
-    <div className="relative flex justify-center items-center mb-10 px-5 mt-10">
+    <div className="relative flex justify-center items-center mb-10  px-12 mt-10">
       {/* Zigzag Lines in the Background */}
       <ZigzagLines />
 
@@ -95,8 +95,10 @@ export function CarouselSpacing() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="" />
-        <CarouselNext className="" />
+        <div className="mx-2">
+          <CarouselPrevious className="" />
+          <CarouselNext className="" />
+        </div>
       </Carousel>
     </div>
   );

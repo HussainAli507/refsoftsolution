@@ -121,7 +121,7 @@ export default function TechIcons() {
         {techStack.map((tech, index) => (
           <motion.div
             key={index}
-            className={`relative flex justify-center items-center w-20 h-20 rounded-full border-4 ${tech.borderColor}`}
+            className={`relative flex justify-center items-center w-28 h-28 rounded-xl border-4 ${tech.borderColor}`}
             whileHover={{ scale: 1.2 }}
             initial="hidden"
             whileInView="visible"

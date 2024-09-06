@@ -8,6 +8,10 @@ import Timeline from "./Componentss/process";
 import ProjectCards from "./Componentss/porjects";
 import Footer from "./Componentss/footer";
 import ContactSection from "./Componentss/contact";
+import MobileApp from "./Componentss/appprojects";
+import WhyChooseUs from "./Componentss/chooseup";
+import MobileAppFeature from "./Componentss/mobilemokeup";
+import { MarqueeDemo } from "./Componentss/marquee";
 
 export default function Home() {
   return (
@@ -15,8 +19,12 @@ export default function Home() {
       <Hero />
       <Topcard />
       <ProjectCards />
+      <MobileApp />
       <CarouselSpacing />
+      <MobileAppFeature />
       <TechIcons />
+      <MarqueeDemo />
+      <WhyChooseUs />
       <Timeline />
       <ContactSection />
       <Footer />

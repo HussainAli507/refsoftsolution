@@ -127,7 +127,7 @@ const Hero = () => {
         {/* Text Content */}
         <div className="md:w-1/2 mb-10 md:mb-0">
           <motion.h1
-            className="text-4xl text-[#3C1874] md:pl-20 md:text-5xl font-bold leading-tight mb-4"
+            className="text-4xl font-baskervville text-[#3C1874] md:pl-20 md:text-5xl font-bold leading-tight mb-4"
             variants={sentence}
             initial="hidden"
             whileInView="visible"
@@ -140,7 +140,7 @@ const Hero = () => {
             ))}
           </motion.h1>
           <motion.p
-            className="text-lg md:text-xl md:pl-20 mb-6"
+            className="text-lg font-mingzat md:text-xl md:pl-20 mb-6"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
